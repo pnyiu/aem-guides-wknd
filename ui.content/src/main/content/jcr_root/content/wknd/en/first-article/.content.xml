@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2018-09-10T14:31:31.056+08:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/wknd/settings/wcm/templates/article-page-template"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="First Article"
+        sling:resourceType="wknd/components/structure/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <header
+                jcr:created="{Date}2018-08-21T15:51:26.592+08:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2018-08-21T15:51:38.336+08:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wknd/components/structure/header"/>
+            <responsivegrid
+                jcr:created="{Date}2018-08-21T15:51:53.210+08:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2018-08-21T15:52:09.459+08:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid">
+                <breadcrumb
+                    jcr:created="{Date}2018-08-21T17:05:12.809+08:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2018-08-21T17:05:12.809+08:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd/components/content/breadcrumb"/>
+                <text
+                    jcr:created="{Date}2018-09-10T14:07:08.825+08:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2018-09-10T14:11:11.583+08:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd/components/content/text"
+                    text="&lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sagittis metus at justo rhoncus, id elementum arcu finibus. Curabitur condimentum justo sodales neque tempus, vitae faucibus justo laoreet. Maecenas tempus nisi eget scelerisque semper. Ut accumsan lacus at porta hendrerit. Nam dignissim faucibus sapien sed pharetra. In a sapien sagittis, varius urna eget, tristique diam. Mauris ultrices in sem molestie hendrerit. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vivamus sed eros turpis. Etiam lectus ante, vulputate eget sapien eget, pulvinar dapibus lectus. In vulputate ex vel bibendum malesuada. Maecenas a neque in nulla molestie tempus. Nullam in iaculis diam.&lt;/p>&#xa;"
+                    textIsRich="true">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            width="6"/>
+                    </cq:responsive>
+                </text>
+                <text_2104678362
+                    jcr:created="{Date}2018-09-10T14:08:20.944+08:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2018-09-10T14:13:33.031+08:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd/components/content/text"
+                    text="&lt;p>Nullam eget interdum sapien, nec pulvinar quam. Suspendisse eu felis efficitur, suscipit enim in, consequat erat. Quisque molestie, tortor eu dapibus sollicitudin, quam nibh semper purus, vel accumsan ligula leo ut eros. Donec sapien quam, ullamcorper sed gravida id, varius in ligula. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vestibulum urna orci, ultrices dictum finibus eget, vulputate id risus. Sed suscipit felis quis tellus molestie molestie. Duis in porttitor ex. Sed vitae justo a leo rhoncus lobortis laoreet ut quam. Proin sagittis quam sed nisi venenatis commodo. Morbi nisi leo, gravida eu maximus id, accumsan vel metus. Etiam cursus ullamcorper arcu nec ultricies. Vestibulum vulputate massa ac condimentum tincidunt. Donec mattis eu eros eget iaculis. Integer eleifend ut libero feugiat cursus.&lt;/p>&#xa;"
+                    textIsRich="true">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="6"/>
+                    </cq:responsive>
+                </text_2104678362>
+                <image_385761133
+                    jcr:created="{Date}2018-09-10T14:17:33.482+08:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2018-09-10T14:31:31.043+08:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd/components/content/image"
+                    alt="Wear"
+                    displayPopupTitle="true"
+                    fileName="1.7.21.1-Wear.jpg"
+                    isDecorative="false">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            width="4"/>
+                    </cq:responsive>
+                    <file/>
+                </image_385761133>
+                <image_212657803
+                    jcr:created="{Date}2018-09-10T14:17:36.581+08:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2018-09-10T14:27:51.204+08:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd/components/content/image"
+                    alt="Eat"
+                    displayPopupTitle="true"
+                    fileName="1.7.21.2-Eat.jpg"
+                    isDecorative="false">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            width="4"/>
+                    </cq:responsive>
+                    <file/>
+                </image_212657803>
+                <image
+                    jcr:created="{Date}2018-09-10T14:17:30.092+08:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2018-09-10T14:28:04.429+08:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd/components/content/image"
+                    alt="Live"
+                    displayPopupTitle="true"
+                    fileName="1.7.21.3-Live.jpg"
+                    isDecorative="false">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            width="4"/>
+                    </cq:responsive>
+                    <file/>
+                </image>
+            </responsivegrid>
+        </root>
+    </jcr:content>
+</jcr:root>
